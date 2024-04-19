@@ -10,13 +10,13 @@ import { remarkReadingTime } from "./src/lib/ remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://osdaviddiazmaya.netlify.app",
+  site: "https://osdavid.netlify.app",
   integrations: [
     sitemap(),
     robotsTxt({
       sitemap: [
-        "https://osdaviddiazmaya.netlify.app/sitemap-index.xml",
-        "https://osdaviddiazmaya.netlify.app/sitemap-0.xml",
+        "https://osdavid.netlify.app/sitemap-index.xml",
+        "https://osdavid.netlify.app/sitemap-0.xml",
       ],
     }),
     solidJs(),
